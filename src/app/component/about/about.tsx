@@ -12,7 +12,7 @@ export function About() {
         <div className="flex items-center justify-center grid grid-cols-2 mt-5 gap-10">
         <center>
           <div className='max-w-64'>
-          <Image className='shadow-md w-full rounded-full' src={`/images/me.jpg`} width="500" height="500" />
+          <Image className='shadow-md w-full rounded-full' alt='' src={`/images/me.jpg`} width="500" height="500" />
           </div>
           </center>
           <div>

@@ -1,10 +1,5 @@
 'use client'
- 
-import { usePathname } from 'next/navigation'
-import Link from 'next/link'
- 
 export function Footer() {
-  const pathname = usePathname()
  
   return (
     <footer className="flex justify-center mt-auto">
